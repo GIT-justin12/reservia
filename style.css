@@ -10,6 +10,7 @@ a{
     text-decoration: none;
 }
 
+/*Navbars*/
 #logo {
     margin-right: auto;
     padding: 0 2rem;
@@ -59,4 +60,52 @@ nav a:hover{
         border-top-color: transparent;
         border-bottom: 3px solid blue;
     }
+}
+
+/*Body*/
+.wrapper{
+    padding: 0 2rem;
+}
+
+.wrapper h1, .wrapper p{
+    margin-bottom: 0.8rem;
+}
+
+/* Search From */
+.search_from{
+    display: flex;
+}
+
+.search_from i{
+    background-color: #F2F2F2;
+    padding: 1rem 0;
+    border-radius: 1rem 0 0 1rem;
+    flex-basis: 4%;
+    text-align: center;
+}
+
+.search_from input{
+    border: lightgrey;
+    flex-basis: 20%;
+    padding: .2rem .5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.search_from input::placeholder{
+    padding: .2rem .5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.search_from button{
+    background-color: blue;
+    padding: 1rem;
+    flex-basis: 10%;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
 }
